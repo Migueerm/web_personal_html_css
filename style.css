@@ -1,0 +1,81 @@
+header{
+    background-color: #FFC2B4;
+    padding: 20px;
+    text-align: center;
+}
+#inicio ul{
+    list-style-type: none;
+}
+#inicio li {
+        background-color: #FB8F67;
+        border: #F8E16C 2px solid;
+        display: inline;
+        margin-inline-end: 10px;
+}
+      
+#inicio a {
+        color: black;
+        padding: 0 4px;
+        text-decoration: none;
+}
+      
+#inicio a:hover {
+        background-color: white;
+        color: #D7C8B6;
+}
+img{
+    border-radius: 8px;
+}
+h2{
+    font-size: 24px;
+}
+table, td, th{
+    border: 2px solid #156064;
+}
+table{
+    border-collapse: collapse;
+    inline-size: 80%;
+}
+td{
+    text-align: center;
+}
+input[type=text],input[type=email] {
+    inline-size: 50%;
+    border: 1px solid #00C49A;
+    border-radius: 4px;
+}
+textarea{
+    inline-size: 40%;
+    border: 1px solid #00C49A;
+    border-radius: 4px;
+}
+input[type=submit]{
+    background-color: #00C49A;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #0a9275;
+}
+
+footer{
+    padding: 10px;
+    background-color: #FB8F67;
+    text-align: center;
+}
+@media only screen and (min-inline-size: 601px) and (max-inline-size: 1024px) {
+    header, #info-personal, #habilidades {
+    padding: 20px;
+    }
+}
+@media only screen and (min-inline-size: 1025px){
+    header, #info-personal, #habilidades {
+        padding: 30px;
+        }
+    h1, h2 {
+        font-size: 28px;
+        }
+}
